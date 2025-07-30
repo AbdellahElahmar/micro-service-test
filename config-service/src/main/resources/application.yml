@@ -1,0 +1,11 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://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@github.com/AbdellahElahmar/config-repo.git
